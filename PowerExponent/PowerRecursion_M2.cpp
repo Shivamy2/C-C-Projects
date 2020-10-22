@@ -1,6 +1,3 @@
-#include <iostream>
-#include <conio.h>
-#include <time.h>
 /* Program to claculate power using recursion 
   We will use :
   for base to be  X { if x is odd -> (X^n) * (X^(n-1))
@@ -8,6 +5,9 @@
                     }
                     Here time complexity will be O(logn)
  */
+#include <iostream>
+#include <conio.h>
+#include <time.h>
 using namespace std;
 int Result;
 int PowerRecusrsion_M2(int pow, int var) {
@@ -29,7 +29,7 @@ int PowerRecusrsion_M2(int pow, int var) {
 
 int main() {
     time_t s,e;
-    time(&s);
+    time(&s);   // used for calculating run-time (you can ignore this)
 
     int p = 90, v = 9;
     cout<<PowerRecusrsion_M2(p, v);

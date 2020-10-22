@@ -9,7 +9,7 @@
 
 using namespace std;
 int main() {
-    int a = 0, b = 1, n = 60, c;
+    int a = 0, b = 1, n = 20, c;
     time_t start, end;
     time(&start);
     for (int i = 0; i < n-1; i++)
