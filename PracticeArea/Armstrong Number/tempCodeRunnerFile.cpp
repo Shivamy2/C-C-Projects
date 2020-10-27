@@ -1,0 +1,4 @@
+nt armstrongN(int n)
+// {
+    
+// }
