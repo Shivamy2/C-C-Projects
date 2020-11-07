@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int n;
-    cin>> n;
+    int x = ( 2,5,10,12,18 );
+    cout << x;
     return 0;
 }
